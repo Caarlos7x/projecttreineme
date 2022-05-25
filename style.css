@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+
+  font-family: 'Open Sans', sans-serif;
+
+  background: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+
+  min-height: 100vh;
+}
+
+.page {
+  width: 1000px;
+  margin: 0 auto;
+  padding: 65px;
+}
+/* ----- MENU navegação -----*/
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 55px;
+
+}
+
+/* ----- MENU -----*/
+ul {
+  list-style: none;
+  display: flex;
+  gap: 48px;
+  margin: 0;
+  padding: 0;
+
+  font-family: 'Mulish', sans-serif;
+}
+
+/* ----- configuração menu -----*/
+a {
+  color: #1F1534;
+  text-decoration: none;
+}
+
+ul li a {
+  opacity: 0.5;
+}
+
+/* ----- Quando passa o mouse em cima do menu -----*/
+ul li a:hover {
+  font-weight: bold;
+  opacity: 1;
+}
+
+/* ----- título -----*/
+h1 {
+  font-size: 49px;
+  line-height: 56px;
+  color: #1F1534;
+  font-weight: normal;
+
+  width: 490px;
+  font-family: 'Mulish', sans-serif;
+}
+
+/* ----- conteúdo do main (texto e img) -----*/
+main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* ----- Cor no span do título -----*/
+h1 span {
+  color: #89C5CC;
+  font-weight: bold;
+}
+/* ----- Paragrafo após o título -----*/
+section p {
+  font-size: 14px;
+  line-height: 28px;
+  color: #7D7987;
+
+  margin: 40px 0;
+}
+
+/* ----- botão comece já! -----*/
+button {
+  text-transform: uppercase;
+  font-family: 'Open Sans', sans-serif;
+
+  border: none;
+  background: #69B99D;
+  border-radius: 4px;
+  
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px 15px;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover{
+  background: #63af95;
+}
+
+/* ----- rodapé -----*/
+footer {
+  font-size: 14px;
+  line-height: 28px;
+  text-align: center;
+
+  margin-top: 80px;
+}
+
+footer a {
+  font-weight: bold;
+}
+
+#balls {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
